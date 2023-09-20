@@ -1,0 +1,34 @@
+<template>
+    <lightning-card title="API EVENT" icon-name="standard:events">
+        <div class="slds-m-around_medium">
+          <!-- <p>API EVENT MONITORING</p> -->
+          
+          <lightning-datatable
+              key-field="Id"
+              data={fetchedApiEvents}
+              columns={columns}
+          >
+          </lightning-datatable>
+          
+          <template if:true={displayWait}>
+            <div
+                class="slds-illustration slds-illustration_large"
+                aria-hidden="true"
+            >
+                <img
+                    src="/img/chatter/OpenRoad.svg"
+                    class="slds-illustration__svg"
+                    alt=""
+                />
+                <div class="empty-state-container slds-text-align_center">
+                    <p class="empty-state-message slds-m-top_medium">
+                        No Api Event found. Make sure you have Enable storage Api Event.
+                    </p>
+                </div>
+            </div>
+          </template>
+
+
+        </div>
+    </lightning-card>
+</template>

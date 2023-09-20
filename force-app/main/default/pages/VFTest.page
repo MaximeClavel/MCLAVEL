@@ -1,0 +1,39 @@
+<apex:page controller="Ctrl_VFTest">
+    <apex:form >
+        
+        <!-- <apex:inputField value="{!demandebureautique.ownerid}" /> -->
+        
+        
+        
+    
+        <apex:outputLabel for="UserId" id="UserLabel" value="User"/>
+    
+        <apex:outputPanel >           
+    
+            <apex:inputField id="UserId" value="{!demandebureautique.ownerid}">                            
+    
+                <apex:actionSupport event="onchange" action="{!actionChange}" immediate="true"/>
+    
+            </apex:inputField>
+    
+        </apex:outputPanel>
+            
+        <br/>
+        <apex:outputLabel id="PicklistLabel" value="Picklist"/>
+        <apex:outputPanel >
+            
+            <apex:selectList value="{!selectedOption}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!options}"/>
+                <apex:actionSupport event="onclick" action="{!getOptions}" immediate="true"/>
+            </apex:selectList>
+            
+            
+        </apex:outputPanel>
+    	
+        <br/>
+        <apex:outputText value="{!selectedOption}" label="You have selected:"/>
+    
+    </apex:form>
+   
+
+</apex:page>

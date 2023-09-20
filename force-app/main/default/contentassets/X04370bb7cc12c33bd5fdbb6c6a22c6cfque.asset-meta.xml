@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>X04370bb7cc12c33bd5fdbb6c6a22c6cfque</masterLabel>
+    <relationships>
+        <organization>
+            <access>VIEWER</access>
+        </organization>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>04370bb7cc12c33bd5fdbb6c6a22c6cf--quentin-tarantino-pictogram.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

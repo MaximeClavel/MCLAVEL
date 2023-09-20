@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExpirationRule</fullName>
+    <active>true</active>
+    <description>Assure que tous les utilisateurs saisissent la date d&apos;expiration du contrat de support lorsque la case détenteur d&apos;un contrat de support est cochée sur un compte.</description>
+    <errorConditionFormula>AND(Contrat_de_support__c=True, ISBLANK(Date_expiration_contrat_support__c))</errorConditionFormula>
+    <errorMessage>Veuillez saisir la date d&apos;expiration du contrat de support</errorMessage>
+</ValidationRule>

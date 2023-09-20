@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_de_cl_ture__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif de clôture</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Concurrent</fullName>
+                <default>false</default>
+                <label>Concurrent</label>
+            </value>
+            <value>
+                <fullName>Prix</fullName>
+                <default>false</default>
+                <label>Prix</label>
+            </value>
+            <value>
+                <fullName>Caractéristiques du produit</fullName>
+                <default>false</default>
+                <label>Caractéristiques du produit</label>
+            </value>
+            <value>
+                <fullName>Projet abandonné</fullName>
+                <default>false</default>
+                <label>Projet abandonné</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Concurrent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Prix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Caractéristiques du produit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Projet abandonné</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

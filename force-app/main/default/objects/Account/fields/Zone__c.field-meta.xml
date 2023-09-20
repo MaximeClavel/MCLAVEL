@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zone__c</fullName>
+    <externalId>false</externalId>
+    <label>Zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>R_gion__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asie de l&apos;Est</fullName>
+                <default>false</default>
+                <label>Asie de l&apos;Est</label>
+            </value>
+            <value>
+                <fullName>Océanie</fullName>
+                <default>false</default>
+                <label>Océanie</label>
+            </value>
+            <value>
+                <fullName>Asie du Sud-Est</fullName>
+                <default>false</default>
+                <label>Asie du Sud-Est</label>
+            </value>
+            <value>
+                <fullName>Afrique</fullName>
+                <default>false</default>
+                <label>Afrique</label>
+            </value>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Moyen-Orient</fullName>
+                <default>false</default>
+                <label>Moyen-Orient</label>
+            </value>
+            <value>
+                <fullName>Royaume-Uni</fullName>
+                <default>false</default>
+                <label>Royaume-Uni</label>
+            </value>
+            <value>
+                <fullName>Irlande</fullName>
+                <default>false</default>
+                <label>Irlande</label>
+            </value>
+            <value>
+                <fullName>Caraïbes</fullName>
+                <default>false</default>
+                <label>Caraïbes</label>
+            </value>
+            <value>
+                <fullName>Amérique centrale</fullName>
+                <default>false</default>
+                <label>Amérique centrale</label>
+            </value>
+            <value>
+                <fullName>Amérique du Sud</fullName>
+                <default>false</default>
+                <label>Amérique du Sud</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Asie de l&apos;Est</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Océanie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Asie du Sud-Est</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Afrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Moyen-Orient</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Royaume-Uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Irlande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Caraïbes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Amérique centrale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Amérique du Sud</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
