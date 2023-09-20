@@ -23,5 +23,3 @@ public class AccountUtilsTest {
         System.assertEquals(expectedAccounts, accounts,'Expecting same account, here there are not.');
     }
 }
-
-            
